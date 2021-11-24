@@ -12,7 +12,7 @@ import (
 	"github.com/google/uuid"
 	"github.com/nats-io/nats.go"
 	"github.com/rs/zerolog/log"
-
+	"github.com/siangyeh8818/commonTools/errors"
 
 	traceRequestID "github.com/siangyeh8818/commonTools/trace/requestID"
 	traceTime "github.com/siangyeh8818/commonTools/trace/time"
